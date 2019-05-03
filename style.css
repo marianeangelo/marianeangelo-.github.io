@@ -1,19 +1,21 @@
-body{
-	background-color:tomato;  
-}
+
 
 h1,h2,h3{
 	font-family:verdana;
+
 }
 
 section{
 	background-color:white;
 	font-family:arial;
 	padding:10px; /*espaçamento entre os elementos de dentro,como imagens, texto,tudo q ta dentro*/
+	text-align: center;
+
+
 }
 
 footer{
-	background-color:red;
+	background-color:#151515;
 	color:white;/*cor da letra*/
 	font-family:arial;
 	font-size:12px;
@@ -22,37 +24,40 @@ footer{
 }
 
 img,video{/*seleciona as tags de imagem e video*/
-	max-width: 100%;/*faz as imagens redimensionar com o tamanho da tela*/
+	max-width: 100%;/*faz as imagens redimensionarem com o tamanho da tela*/
 }
 
+
 nav{
-	background-color:gold;
-	height: 35px;/*altura,no caso da barrinha de menu*/
+	background-color:#585858;
+	height: 40px;/*altura,no caso da barrinha de menu*/
 	font-family:verdana;
-	font-weight:bold;/*faz negrito*/
+	font-size: 20px;
 }
 
 nav ul{/*diz q quer o ul de dentro do nav*/
 	height: auto;/*é pra deixar responsivo*/
 	padding:8px 0px;
 	margin: 0px;/*outro jeito de tirar as bolinhas*/
+	text-align: center;
 }
 
 nav li{
 	display:inline;/*deixa na horizontal a lista,menu*/
-	padding:10px;
+	padding:20px;
 	margin:0px;/*tb é pra tirar as bolinha da lista*/
 }
 
 nav a{/*link dentro da tag nav*/
 	text-decoration:none;/*tira o sublinhado do link*/
-	color:#FF0040;
-	padding: 8px 8px 8px 8px;/*deixa os link responsivo*/
+	color:white;
+	padding: 8px 8px 8px 8px;/*deixa os links responsivos*/
+
 }
 
 nav a:hover{/*muda a cor quando poe o mouse em cima*/
 	color:white;/*pinta o texto de branco*/
-	background-color:orange;/*e o fundo de laranja*/
+	background-color:grey;/*e o fundo de laranja*/
 } 
 
 @media all and(min-width:960px){/*quando o minimo for de 960px(960 pq é o padrao dos monitor) da tela*/
