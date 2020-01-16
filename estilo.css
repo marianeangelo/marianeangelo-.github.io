@@ -385,6 +385,9 @@ a{
 
 
 
+img{/*seleciona as tags de imagem e video*/
+	max-width: 100%;/*faz as imagens redimensionarem com o tamanho da tela*/
+}
 
 @media all and(min-width:960px){/*quando o minimo for de 960px(960 pq é o padrao dos monitor) da tela*/
 
