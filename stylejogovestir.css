@@ -436,5 +436,11 @@ body{
 }
 
 
+@media all and(min-width:960px){/*quando o minimo for de 960px(960 pq é o padrao dos monitor) da tela*/
 
+	body{
+		width:960px;/*se a tela for maior q 960 ela fixa nesse valor e o site para de expandir*/
+		margin:auto;/*centralizar*/
+	}
+}
 
