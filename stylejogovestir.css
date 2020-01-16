@@ -1,0 +1,440 @@
+html{
+	overflow-y:hidden;
+}
+
+body{
+	background-color:#4d79ff;
+}
+
+/*Resets*/
+
+#resetcabelo{
+	position:absolute;
+	width:40px;
+	margin-top: 110px;
+	margin-left: 35px;
+}
+
+#resetchapeu{
+	position:absolute;
+	width:40px;
+	margin-top: 80px;
+	margin-left: 440px;
+}
+
+#resetblusa{
+	position:absolute;
+	width:40px;
+	margin-top: 240px;
+	margin-left: 440px;
+}
+
+#resetcalça{
+	position:absolute;
+	width:40px;
+	margin-top: 430px;
+	margin-left: 440px;
+}
+
+#resetsapato{
+	position:absolute;
+	width:40px;
+	margin-top: 570px;
+	margin-left: 440px;
+}
+
+#resetacessorio{
+	position:absolute;
+	width:40px;
+	margin-top: 300px;
+	margin-left: 35px;
+}
+
+
+/*roupas na boneca*/
+
+#boneca{
+	position:absolute;
+	width: 250px;
+	margin-top: 30px;
+	margin-left:200px;
+}
+
+/*acessorios*/
+#acessorio1Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 56px;
+	margin-top: 120px;
+	margin-left:288px;
+}
+
+#acessorio2Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 56px;
+	margin-top: 160px;
+	margin-left:296px;
+}
+
+#acessorio3Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 90px;
+	margin-top: 285px;
+	margin-left:315px;
+}
+
+#acessorio4Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 50px;
+	margin-top: 268px;
+	margin-left:350px;
+}
+
+#acessorio5Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 80px;
+	margin-top: 308px;
+	margin-left:220px;
+}
+
+
+/*cabelos*/
+#cabelo1Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 70px;
+	margin-top: 96px;
+	margin-left:283px;
+}
+
+#cabelo2Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 70px;
+	margin-top: 96px;
+	margin-left:283px;
+}
+
+#cabelo3Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 70px;
+	margin-top: 96px;
+	margin-left:283px;
+}
+
+/*chapeus*/
+#chapeu1Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 100px;
+	margin-top: 80px;
+	margin-left:265px;
+}
+
+#chapeu2Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 110px;
+	margin-top: 70px;
+	margin-left:259px;
+}
+
+#chapeu3Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 103px;
+	margin-top: 77px;
+	margin-left:260px;
+}
+
+#chapeu4Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 90px;
+	margin-top: 70px;
+	margin-left:270px;
+}
+
+/*blusas*/
+#blusa1Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 121px;
+	margin-top: 170px;
+	margin-left:263px;
+}
+
+#blusa2Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 141px;
+	margin-top: 159px;
+	margin-left:248px;
+}
+#blusa3Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 141px;
+	margin-top: 157px;
+	margin-left:250px;
+}
+#blusa4Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 141px;
+	margin-top: 170px;
+	margin-left:249px;
+}
+
+/*calças*/
+#calça1Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 102px;
+	margin-top: 280px;
+	margin-left:260px;
+}
+
+#calça2Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 121px;
+	margin-top: 260px;
+	margin-left:246px;
+}
+
+#calça3Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 121px;
+	margin-top: 260px;
+	margin-left:246px;
+}
+
+#calça4Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 120px;
+	margin-top: 265px;
+	margin-left:247px;
+}
+
+
+
+/*sapatos*/
+#sapato1Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 56px;
+	margin-top: 485px;
+	margin-left:285px;
+}
+
+#sapato2Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 56px;
+	margin-top: 485px;
+	margin-left:285px;
+}
+
+#sapato3Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 56px;
+	margin-top: 485px;
+	margin-left:285px;
+}
+
+#sapato4Vestido{
+	opacity: 0;
+	position:absolute;
+	width: 56px;
+	margin-top: 485px;
+	margin-left:285px;
+}
+
+
+
+
+
+/*roupas para escolher*/
+
+#acessorio1{
+	position: relative;
+	width: 90px;
+	bottom: 270px;
+	right: 460px;
+}
+
+#acessorio2{
+	position:relative;
+	width: 77px;
+	bottom: 265px;
+	right: 460px;
+}
+
+#acessorio3{
+	position:relative;
+	width: 80px;
+	bottom: 100px;
+	right: 680px;
+}
+
+#acessorio4{
+	position:relative;
+	width: 70px;
+	bottom: 80px;
+	right: 620px;
+}
+
+#acessorio5{
+	position:relative;
+	width: 60px;
+	bottom: 100px;
+	right: 750px;
+}
+
+
+#cabelo1{
+	position:absolute;
+	width:50px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+#cabelo2{
+	position:absolute;
+	width:50px;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+#cabelo3{
+	position:absolute;
+	width:50px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+#chapeu1{
+	width: 100px;
+	margin-top: 70px;
+	margin-left:500px;
+}
+
+#chapeu2{
+	position:absolute;
+	width: 110px;
+	margin-top: 60px;
+	margin-left:20px;
+}
+
+#chapeu3{
+	position:absolute;
+	width: 110px;
+	margin-top: 60px;
+	margin-left:130px;
+}
+
+#chapeu4{
+	position:absolute;
+	width: 90px;
+	margin-top: 60px;
+	margin-left:250px;
+}
+
+#blusa1{
+	width: 100px;
+	margin-top: 70px;
+	margin-left:500px;
+}
+
+#blusa2{
+	position: absolute;
+	width: 100px;
+	margin-top: 70px;
+	margin-left:20px;
+}
+
+#blusa3{
+	position: absolute;
+	width: 97px;
+	margin-top: 60px;
+	margin-left:140px;
+}
+
+#blusa4{
+	position: absolute;
+	width: 100px;
+	margin-top: 70px;
+	margin-left:250px;
+}
+
+#calça1{
+
+	width: 80px;
+	margin-top: 50px;
+	margin-left:495px;
+}
+
+#calça2{
+	position: absolute;
+	width: 80px;
+	margin-top: 40px;
+	margin-left:160px;
+}
+
+#calça3{
+	position: absolute;
+	width: 80px;
+	margin-top: 40px;
+	margin-left:270px;
+}
+
+#calça4{
+	position: absolute;
+	width: 85px;
+	margin-top: 40px;
+	margin-left:40px;
+}
+
+#sapato1{
+	width: 37px;
+	margin-top: 60px;
+	margin-left:500px;
+
+}
+
+#sapato2{
+	position:absolute;
+	width: 37px;
+	margin-top: 60px;
+	margin-left:80px;
+
+}
+
+#sapato3{
+	position:absolute;
+	width: 37px;
+	margin-top: 60px;
+	margin-left:200px;
+
+}
+
+#sapato4{
+	position:absolute;
+	width: 37px;
+	margin-top: 60px;
+	margin-left:320px;
+
+}
+
+
+
+

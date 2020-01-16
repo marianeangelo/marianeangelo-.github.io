@@ -1,0 +1,387 @@
+
+html{
+	overflow-x: hidden; /*oculta a barra de rolagem de baixo*/
+}
+
+body{
+	background-color: #363636;
+
+}
+
+img{
+	max-width: 100%; /*para se adaptar a dispos.moveis*/
+}
+
+
+#barra{
+	position: absolute; 
+	z-index: -1;
+	float: top;
+	padding-right: 20px;
+	
+
+}
+
+#logo{
+	width: 130px;
+	position: absolute; 
+
+}
+
+nav{
+	padding-left: 100px;
+	float: top;
+	
+}
+
+nav a{
+	text-decoration:none;/*tira o sublinhado do link*/
+	color:white;
+	
+}
+
+
+nav a:hover{/*quando passa o mouse por cima do link*/
+	color: black;
+	opacity: 0.7;
+	
+
+	}
+
+ul{
+	list-style-type: none; /*remove a bolinha da lista*/
+	padding-top: 55px;
+	padding-bottom: 25px;
+	color: white;
+	font-size: 15px;
+	font-family: verdana;
+
+
+}
+
+li{
+	float: left; /*deixa a lista na horizontal*/
+	padding-left: 103px;
+	
+
+}
+
+
+#arte{/*arte da primeira página*/
+	width: 1010px;
+	position: absolute; left: 0px; /*expande a imagem pra bater nas bordas*/
+	padding-top: 10px;
+	padding-bottom: 80px;
+
+	
+}
+#linhabaixo{
+	margin-top: 585px;
+
+	
+}
+
+
+#textcriado{/*texto do rodape*/
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+	font-family: calibri;
+	clear: both;
+
+}
+
+#separarano{/*texto do rodape*/
+	padding-left: 10px;
+}
+
+h1{
+	color: white;
+	font-family: verdana;
+}
+
+/*PÁGINA SOBRE*/
+.texto{
+	float: left;
+	font-family:calibri;
+	color: white;
+	font-size: 16px;
+	
+}
+
+
+
+#imgsobre{
+	position: absolute;
+	display: block;
+	margin-left: 550px;
+
+
+
+}
+
+/*PÁGINA ENCOMENDE*/
+
+#encomende{
+	float: left;
+	margin-left: 25px;
+	font-family:calibri;
+	color: white;
+	font-size: 20px;
+	padding-top: 60px;
+}
+
+#mensagem{
+	color: white;
+	font-family: verdana;
+	margin-left: 25px;
+	position: absolute;
+
+
+}
+
+#lapis{
+	width: 250px;
+	position: absolute;
+	display: block;
+	float: left;
+	padding-top: 200px;
+	margin-left: 100px;
+
+	
+}
+
+#formcontato{
+	color: darkgray;
+	font-family: calibri;
+	float: right;
+	margin-right: 120px;
+	font-size:30px;
+	padding-top: 20px;
+}
+
+#formulario{
+	float: right;
+	margin-right:150px;
+}
+
+.caixadetexto{/*CLASSE DO FORMULARIO*/
+	width: 130px;
+	height: 23px;
+	border-color:gray;
+	border-radius: 2px;
+	border-style:solid;/*serve pra deixar a cor da borda sem sombra*/
+	
+
+}
+
+.label{/*CLASSE DO FORMULARIO*/
+	font-family:calibri;
+	color:lightgray;
+	font-size:17px;
+	
+	
+}	
+
+
+#telefone{
+	margin-left: 90px;
+}
+
+
+#caixatelefone{
+	margin-left: 7px;
+}	
+
+#caixaemail{
+	padding-right: 71px;
+	height: 23px;
+	border-color:gray;
+	border-radius: 2px;
+	border-style:solid;/*serve pra deixar a cor da borda sem sombra*/
+}
+
+#caixamensagem{
+	border-color:gray;
+	border-width: 2px;
+	border-radius: 2px;
+	border-style:solid;/*serve pra deixar a cor da borda sem sombra*/
+
+}
+
+#enviar{
+	width: 90px;
+	height: 50px;
+	background-color: black;
+	color:white;
+	border: none;
+	font-family: verdana;
+}
+
+
+/*PÁGINA PORTIFÓLIO*/
+.portifolio{
+	width: 485px;
+	display: block;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	height: 274px;
+	
+}
+
+/*Grupo das informaçoes de sobreposição da imagem*/
+.capa{/*vai sobrepor a imagem com informaçoes*/
+	opacity: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	width: 485px;
+	height: 274px;
+	margin-left: 5px;
+	float: left;
+	transition: .5s ;
+	cursor: pointer;
+}
+
+.tituloArte{
+	text-align: center;
+	margin-top: 110px;
+}
+
+.subtituloArte{
+	color: white;
+	font-family: verdana;
+	text-align: center;
+
+}
+
+.imagem:hover .capa {/*quando passar o mouse vai mostrar as informaçoes da imagem*/
+	opacity: 1;
+}
+
+#capa2{
+	margin-left:500px;
+}
+
+#capa3{
+	margin-top:284px;
+}
+
+#capa4{
+	margin-top:284px;
+	margin-left:500px;
+}
+
+
+#capa5{
+	margin-top:568px;
+}
+
+#capa6{
+	margin-top:568px;
+	margin-left:500px;
+}
+
+#capa7{
+	margin-top:852px;
+
+}
+
+#capa8{
+	margin-top:852px;
+	margin-left:500px;
+}
+
+#capa9{
+	margin-top:1136px;
+}
+
+#capa10{
+	margin-top:1136px;
+	margin-left:500px;
+}
+
+/*PÁGINAS DAS IMAGENS DO PORTIFOLIO*/ 
+.textoportifolio{
+	color:white;
+	font-family: calibri;
+	font-size:20px;
+	float: left;
+
+}
+
+#imagemdaArte{
+	width: 800px;
+	padding-left: 100px;
+	padding-bottom: 70px;
+	
+	
+}
+
+#imagemzoom{
+	width: 1010px;
+	position: absolute; left: 0px; /*expande a imagem pra bater nas bordas*/
+	padding-top: 480px;
+	
+
+}
+
+
+/*PÁGINA CONTATO*/
+
+#textContato{
+	color: white;
+	font-family: calibri;
+	font-size:20px;
+	margin-bottom: 0;
+	padding-bottom: 0
+
+}
+
+#excetodomingo{
+	color:darkorange;
+	font-family:calibri;
+	font-size:15px;
+	margin-top: 0;
+	padding-top: 0;
+
+}
+
+#emailContato{
+	color:white;
+	font-family:calibri;
+	position:absolute;
+	text-align: left;
+	padding-top: 30px;
+	font-size:25px;
+	
+}
+
+#telefoneContato{
+	color:white;
+	font-family:calibri;
+	position:absolute;
+	text-align: left;
+	padding-top: 180px;
+	font-size:25px;
+}
+
+#endereco{
+	color:white;
+	font-family:calibri;
+	position:absolute;
+	padding-left: 180px;
+	padding-top: 450px;
+	font-size:20px;
+}
+
+
+#mapa{
+	position: absolute;
+	margin-left: 400px;
+	width: 550px;
+	display: block;
+	margin-top: 0;
+	padding-top: 0;
+}
