@@ -52,7 +52,7 @@ nav{
 	font-family:ink free;
 	padding-top: 2%;
 	position:fixed;
-
+	z-index: 1;
 
 }
 
@@ -244,6 +244,7 @@ a{
 	margin-right: 20%;
 	padding-left: 20%;
 	padding-right: 20%;
+	z-index: 1;
 	
 	}
 
@@ -513,7 +514,7 @@ a{
 	margin-left: 20%;
 	margin-right: 1%;
 	padding-right: 1%;
-	
+	z-index: 1;
 	
 	
 	}
