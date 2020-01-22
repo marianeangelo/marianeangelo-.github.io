@@ -1,43 +1,58 @@
 <!doctype html>
+<html lang="pt-br"><!--linguagem em portugues-->
+
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styleartedigital.css">
+	<meta charset= "utf-8">
+	<title>Receitas da Hora</title>
+	<meta name ="description" content="Aqui você encontra tudo sobre receitas"><!--descriçao na pesquisa do google-->
+	<link rel="icon" href="favicon.png"><!--icone do topo da pág, diz q ajuda os robo do google achar o site-->
+	<link rel="stylesheet" type="text/css" href="stylereceitas.css"><!--liga na folha de estilo-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adapta a varios dispositivos-->
 </head>
 
-<body> 
+<body onload="slide1()">
+	<header><!--cabeçalho-->
+		<img src="banner1.jpg" id="banner">
+	</header>
 
-	<img src="barra.jpg" id="barra">
-	<a href="artedigital.html"><img src="logo.png" id="logo"></a>
-	<nav> 
+	<nav><!--menu navegaçao-->
 		<ul>
-			<li><a href="sobre.html">SOBRE</a></li>
-			<li><a href="encomende.html">ENCOMENDE SUA ARTE</a></li>
-			<li><a href="portifolio.html">PORTIFÓLIO</a></li>
-			<li><a href="contato.html">CONTATO</a></li>
-
-
+			<li><a href="sitedereceitas.html">Home</a></li>
+			<li><a href="receitas.html">Receitas</a></li>
+			<li><a href="livro.html">Baixe Nosso Livro</a></li>
+			<li><a href="contato.html">Contato</a></li>
+			
 		</ul>
 	</nav>
-	<hr>
-	<h1>Entre em contato conosco</h1>
-	<p id="textContato">Além do formulário de contato, para qualquer dúvida nos envie uma mensagem ou ligue-nos.<br> Atendimento 24 horas por dia de Segunda à Sábado </p>
 
-	<p id="excetodomingo">
-	*Exceto domingo e feriados </p>
+	<section><!--Aqui fica o conteudo-->
+		<h2>Entre em contato conosco com dicas, sugestões e nos sigam em nossoas redes sociais :)</h2>
+		<a href="mailto:receitasdahora@gmail.com">
+			<img src="email.png" >
+		</a>
 
-	<p id="emailContato" ><b>E-mail:</b><br> contato@thefoxillustrator.com</p>
+	</section>
 
-	<p id="telefoneContato"><b>Telefones:</b><br>(42)30012487  
-		<br> (42)999786754 - Whatsapp</p>
+	<section><!--Aqui fica o conteudo-->
+		
+		<a href="https://www.facebook.com/Receitas-da-Hora-421190738437420/?modal=admin_todo_tour" target="_blank">
+			<img src="facebook.png">
+		</a>
 
-	<p id="endereco">Edifício Comercial Delta Plaza - Rua Cincinato Braga - Bela Vista, São Paulo - SP</p>	
+		<a href="https://twitter.com/AngeloMariane" target="_blank">
+			<img src="twitter.png">
+		</a>
 
-	
-		<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4006841809723!2d-46.64817148554289!3d-23.567993067721094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bc33411773%3A0xbc5a57b1c5e0e056!2sEdif%C3%ADcio%20Comercial%20Delta%20Plaza!5e0!3m2!1spt-BR!2sbr!4v1571116702360!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		<a href="https://www.youtube.com/channel/UCHYViGoNLS3kAFOSPtuweow?guided_help_flow=3" target="_blank">
+			<img src="youtube.png">
+		</a>
+	</section>
 
-	
-		<hr id="linhabaixo">
-	
-	<p id="textcriado">Criado por Mariane Angelo<span id="separarano">2019</span> </p>
+	<footer><!--rodapé-->
+		<p>Desenvolvido por Mariane C. Angelo</p>
+	</footer>
+
+
+	<script src="slide.js"></script>
 </body>
-<html>
+</html>

@@ -1,0 +1,84 @@
+
+
+h1,h2,h3{
+	font-family:verdana;
+
+}
+
+section{
+	background-color:white;
+	font-family:arial;
+	padding:10px; /*espaçamento entre os elementos de dentro,como imagens, texto,tudo q ta dentro*/
+	text-align: center;
+
+
+}
+
+footer{
+	background-color:#151515;
+	color:white;/*cor da letra*/
+	font-family:arial;
+	font-size:12px;
+	padding:8px;
+	text-align:center;
+}
+
+img,video{/*seleciona as tags de imagem e video*/
+	max-width: 100%;/*faz as imagens redimensionarem com o tamanho da tela*/
+}
+
+
+nav{
+	background-color:#585858;
+	height: 40px;/*altura,no caso da barrinha de menu*/
+	font-family:verdana;
+	font-size: 20px;
+}
+
+nav ul{/*diz q quer o ul de dentro do nav*/
+	height: auto;/*é pra deixar responsivo*/
+	padding:8px 0px;
+	margin: 0px;/*outro jeito de tirar as bolinhas*/
+	text-align: center;
+}
+
+nav li{
+	display:inline;/*deixa na horizontal a lista,menu*/
+	padding:20px;
+	margin:0px;/*tb é pra tirar as bolinha da lista*/
+}
+
+nav a{/*link dentro da tag nav*/
+	text-decoration:none;/*tira o sublinhado do link*/
+	color:white;
+	padding: 8px 8px 8px 8px;/*deixa os links responsivos*/
+
+}
+
+nav a:hover{/*muda a cor quando poe o mouse em cima*/
+	color:white;/*pinta o texto de branco*/
+	background-color:grey;/*e o fundo de laranja*/
+} 
+
+#banner{
+	margin-left: 11%;
+}
+@media all and(min-width:960px){/*quando o minimo for de 960px(960 pq é o padrao dos monitor) da tela*/
+
+	body{
+		width:960px;/*se a tela for maior q 960 ela fixa nesse valor e o site para de expandir*/
+		margin:auto;/*centralizar*/
+	}
+}
+
+@media all and (max-width:480px){/*até 480 px o menu fica horizontal, depois vertical*/
+	nav{
+		height:100%;/*faz manter a altura do nav quando diminuir a tela*/
+	}
+
+	nav li{
+		display: block;/*menu na vertical*/
+		padding: 10px;/*dar um espaçamento quando ficar na vertical*/
+		margin:0px;
+	}
+}
