@@ -116,7 +116,7 @@ h1{
 
 
 #imgsobre{
-	
+	position: absolute;
 	display: block;
 	margin-left: 550px;
 
